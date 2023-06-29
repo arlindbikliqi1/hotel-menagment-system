@@ -1,0 +1,38 @@
+form{
+    padding: 100px;
+    background-color: white;
+}
+.reservation{
+    display: flex;
+    justify-content: center;
+}
+.reservation,button{
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+.reservation,button:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    body{
+    background-image: url('../img/background.jpg');
+    }
+#signout{
+    text-decoration: none;
+    color: black;
+}
+#signout:hover{
+    color: blue;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-right:10px;
+}
