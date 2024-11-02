@@ -18,6 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
     $user = $stmt->fetch();
     
+	echo "arlind bikliqi";
+
     if ($user) {
         header("location: ../php/dashboard.php");
         exit;
